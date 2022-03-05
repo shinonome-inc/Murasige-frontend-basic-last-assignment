@@ -8,6 +8,8 @@ $gray_gainsboro: #dddddd;
 $orange_zorba: #a19283;
 $orange_bistre: #442606;
 $black: #000000;
+$gray_nobel: #999999;
+$brack_50: raba(0,0,0,0.5);
 
 
 $fontsize-xs: 12px;
@@ -16,6 +18,15 @@ $fontsize-m: 16px;
 $fontsize-l: 20px;
 $fontsize-xl: 36px;
 $fotsize-xxl: 40px;
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+);
 
 $fontfamily-mincho: "Roboto","Noto Serif JP","Note Sans JP";
 $fontfamily-gothic: "Roboto","Noto Serif JP","Noto Sans JP";
