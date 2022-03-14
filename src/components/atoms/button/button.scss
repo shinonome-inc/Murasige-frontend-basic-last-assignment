@@ -1,0 +1,20 @@
+@use "../../variables" as *;
+
+.assignment-button {
+  color: $white;
+  font-family: $fontfamily-mincho;
+  font-size: $fontsize-s;
+  font-weight: 400;
+  background-color: $black;
+  position: absolute;
+  width: 180px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  transition: 0.2s;
+}
+.assignment-button:hover{
+  background-color: $orange_bistre;
+}
